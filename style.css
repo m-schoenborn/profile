@@ -1,0 +1,75 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: #E4F1EC;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  color: #4E598C;
+  line-height: 10px;
+  font-size: 1em;
+}
+
+h1, h2, h3 {
+  color: #848B7E;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+a {
+  color: #74A4BC;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2D4D3A;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 1em;
+  color: #275342;
+}
+
+.card {
+  background: #F2F8F6;
+  border: medium;
+  border-radius: 15px;
+  box-shadow: 0px 5px 5px rgb(0,0,0,0.1);
+  padding: 20px;
+  margin: 50px 100px;
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #DCE8D9;
+  color: #468654;
+  padding: 15px 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  border: 2px solid #8AB380;
+}
+
+.list-inline {
+  font-size: 50px;
+  color: #848B7E;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #848B7E;
+}
+
+.list-inline i:hover {
+  color: black;
+}
